@@ -1,0 +1,30 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+.main-body {
+  background: url("./Rectangle.png ");
+  height: 1233px;
+  background-repeat: no-repeat;
+}
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+}
+
+.menu a {
+  padding: 20px 20px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.menu {
+  padding: 20px;
+}
