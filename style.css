@@ -7,17 +7,16 @@ body {
   background-color: rgb(0, 0, 0);
 }
 .main-body {
-  background: url("./Rectangle.png ");
+  background: url("images/Rectangle.png");
   height: 1233px;
   background-repeat: no-repeat;
 }
 .navbar {
-  height: 60px;
-  width: 100%;
+  height: 100px;
   background-color: rgba(0, 0, 0, 0);
   display: flex;
-  justify-content: center;
-  position: fixed;
+  justify-content: space-between;
+  padding-right: 30px;
 }
 
 .menu a {
@@ -26,5 +25,103 @@ body {
   color: aliceblue;
 }
 .menu {
-  padding: 20px;
+  padding: 30px;
+}
+.menu a:hover {
+  opacity: 0.6;
+}
+.logo {
+  padding: 5px 0px 0px 73px;
+}
+
+.buttons {
+  border: solid rgb(77, 72, 72) 1px;
+  margin-top: 10px;
+  padding: 7px 2px 18px 15px;
+  width: 100px;
+  height: 25px;
+  border-radius: 50px;
+  background-color: black;
+}
+.buttons button {
+  background-color: black;
+  border: 0px;
+  border-radius: 50px;
+  padding: 10px 10px 10px 10px;
+}
+#btn1:hover {
+  background-color: rgb(10, 162, 233);
+}
+#btn2:hover {
+  background-color: #7289da;
+}
+.main {
+  display: flex;
+}
+.child1 {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0px 0px 132px;
+}
+.child1-a {
+  padding: 17px;
+}
+.child2 {
+  width: 45%;
+  height: 722px;
+  background: url("images/mascot.png");
+  background-repeat: no-repeat;
+}
+.child1-b {
+  width: 477px;
+  height: 71px;
+  border: solid gray 1px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+.child1-b input {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 8px 8px;
+  color: white;
+  font-size: medium;
+  margin-top: 5px;
+  width: 310px;
+  height: 45px;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right-style: solid gray 2px;
+  outline: none;
+}
+::placeholder {
+  color: aliceblue;
+}
+.child1-b div {
+  border: 0px;
+  border-radius: 50px;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column-reverse;
+}
+#btn3 {
+  background-color: rgb(6, 214, 214);
+  height: 50px;
+  width: 50px;
+  border: solid darkblue 1px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+#btn3:hover {
+  background-color: rgb(4, 170, 199);
+}
+.option {
+  background-color: rgba(0, 0, 0, 0);
+  color: aliceblue;
+  font-size: medium;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
 }
