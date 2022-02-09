@@ -238,7 +238,6 @@ body {
   display: flex;
   height: 23vh;
   justify-content: center;
-  /* border: solid yellow 2px; */
 }
 .child5 {
   width: 50%;
@@ -275,18 +274,14 @@ body {
 .child6-a div h1 {
   font-weight: 100;
 }
-/* .child6-a div { */
-/* flex-direction: row-reverse; */
-/* } */
+
 .contact-container {
-  /* border: 2px solid red; */
   height: 750px;
   margin: 0px 200px;
-  /* border-top: 3px solid rgba(255, 255, 255, 0.21);  */
+
   border-left: 3px solid rgba(255, 255, 255, 0.21);
 }
 .heading-para {
-  /* border: 2px solid yellow; */
   padding: 50px 100px;
 }
 .heading-para h1 {
@@ -301,7 +296,6 @@ body {
   letter-spacing: 0.2px;
 }
 .main-contact {
-  /* border: 2px solid red; */
   margin: 0px 100px;
   display: flex;
   height: 40%;
@@ -310,7 +304,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  /* border: 2px solid green; */
   font-weight: 500;
   font-size: 25px;
   line-height: 30px;
@@ -330,7 +323,6 @@ body {
   border-top: none;
 }
 .contact-btn {
-  /* border: 2px solid green; */
   margin: 0px 100px;
   display: flex;
   flex-direction: row-reverse;
