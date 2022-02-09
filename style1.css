@@ -49,6 +49,7 @@ body {
   border: 0px;
   border-radius: 50px;
   padding: 10px 10px 10px 10px;
+  cursor: pointer;
 }
 #btn1:hover {
   background-color: rgb(10, 162, 233);
@@ -408,6 +409,7 @@ body {
   border: 0px;
   border-radius: 50px;
   padding: 10px 10px 10px 10px;
+  cursor: pointer;
 }
 .end {
   display: flex;
