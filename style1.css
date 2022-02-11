@@ -582,6 +582,7 @@ border-top: solid gray 3px; */
   top: 755px;
   z-index: 99999;
   position: fixed;
+  cursor: pointer;
 }
 .joindiscord div img {
   display: flex;
