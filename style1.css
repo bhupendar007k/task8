@@ -6,15 +6,20 @@
 }
 
 body {
+  /* background-color: rgb(0, 0, 0); */
+  background: url("images/Rectangle.png");
   background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
   max-width: 1582px;
 }
 
-.main-body {
+/* .main-body {
   background: url("images/Rectangle.png");
+  background-color: rgb(0, 0, 0);
   background-repeat: no-repeat;
-  /* background-repeat: repeat-y; */
-}
+  height: 4000px;
+  background-repeat: repeat-y;
+} */
 
 .navbar {
   height: 119px;
@@ -23,7 +28,8 @@ body {
   justify-content: space-between;
   padding-right: 30px;
   position: sticky;
-  top: 0px;
+  top: 0;
+  z-index: 99999;
 }
 
 .menu a {
@@ -74,6 +80,8 @@ body {
 
 .main {
   display: flex;
+  /* height: 100vh; */
+  padding-top: 40px;
 }
 
 .child1 {
@@ -151,13 +159,14 @@ body {
   outline: none;
 }
 
-.child2 div {
-  background: rgba(255, 255, 255, 0.06);
-  backdrop-filter: blur(80px);
-  /* Note: backdrop-filter has minimal browser support */
+/* .child2 div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center; 
+} */
 
-  border-radius: 90px;
-}
 .child2 div p {
   font-size: 15px;
   line-height: 25px;
@@ -184,6 +193,8 @@ body {
   padding-left: 5px;
   align-items: center;
   border-radius: 50px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(80px);
 }
 
 .div2 {
@@ -196,6 +207,8 @@ body {
   height: 87px;
   right: 125px;
   top: 83px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(80px);
 }
 
 .div3 {
@@ -208,6 +221,8 @@ body {
   padding-left: 5px;
   align-items: center;
   border-radius: 50px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(80px);
 }
 
 .div4 {
@@ -220,12 +235,14 @@ body {
   padding-left: 5px;
   align-items: center;
   border-radius: 50px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(80px);
 }
 
 .main-1 {
   display: flex;
   padding-top: 60px;
-  border: solid red 1px;
+  /* border: solid red 1px; */
   height: 53vh;
 }
 
@@ -544,23 +561,38 @@ border-top: solid gray 3px; */
 
 .main-2 {
   display: flex;
-  border: solid red 1px;
+  /* border: solid red 1px; */
   height: 35vh;
 }
 .joindiscord {
-  height: 140px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   border-radius: 100px;
   border: solid rgb(78, 78, 78) 1px;
   background-color: rgb(255, 255, 255);
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   align-content: center;
   align-items: center;
-  position: sticky;
-  bottom: 0;
+  padding: 5px 5px 5px 5px;
+  position: absolute;
+  left: 1372px;
+  /* right: 98px; */
+  top: 755px;
+  z-index: 99999;
+  position: fixed;
+}
+.joindiscord div img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 .joindiscord:hover {
   background-color: #d4d7e4;
+}
+#dis_1 {
+  padding-left: 23px;
+  padding-bottom: 5px;
 }
